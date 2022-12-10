@@ -28,4 +28,4 @@ To implement the code below directory structure is to be followed and the Google
 
 The Google drive link where the experiments were implemented is [here](https://drive.google.com/drive/folders/1GBAnKo04gTphDUpSpkQC7vQn-QICxfV7?usp=sharing).
  
-Note :As mentioned in the reference Colab File, the Keras prevents from saving this kind of sub-classed model as HDF5 file since it is not serializable. So, the repaired model was directly used, for the evaluation,  instead of storing and retrieving. However, the Bprime weights are saved in the models folder in the attached model folder in this repository.
+Note :As mentioned in the reference Colab File, the Keras prevents from saving this kind of sub-classed model as HDF5 file since it is not serializable. So, the repaired model was directly used, for the evaluation,  instead of storing and retrieving. However, the Bprime weights are saved in the models folder in the attached in this repository.
