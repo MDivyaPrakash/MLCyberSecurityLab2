@@ -23,6 +23,9 @@ To implement the code below directory structure is to be followed and the Google
    2. The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals and split into validation and test datasets.
    3. bd_valid.h5 and bd_test.h5 contains validation and test images with sunglasses trigger respectively, that activates the backdoor for bd_net.h5
    
+
+## Notes
+
 The Google drive link where the experiments were implemented is [here](https://drive.google.com/drive/folders/1GBAnKo04gTphDUpSpkQC7vQn-QICxfV7?usp=sharing).
  
 Note :As mentioned in the reference Colab File, the Keras prevents from saving this kind of sub-classed model as HDF5 file since it is not serializable. So, the repaired model was directly used, for the evaluation,  instead of storing and retrieving. However, the Bprime weights are saved in the models folder in the attached model folder in this repository.
