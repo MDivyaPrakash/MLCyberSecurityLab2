@@ -1,4 +1,4 @@
-# Lab 2 - Pruning Defense Implementation.
+# Lab 2 - Backdoor Model Detector : Pruning Defense Implementation.
 To implement the code below directory structure is to be followed and the Google Colab file can be placed in the main folder.
 
 ```bash
