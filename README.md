@@ -4,14 +4,15 @@ To implement the code below directory structure is to be followed and the Google
 ```bash
 ├── data 
     └── cl
-        └── valid.h5 // this is clean validation data used to design the defense
-        └── test.h5  // this is clean test data used to evaluate the BadNet
+        └── valid.h5 // This is clean validation data used to design the defense
+        └── test.h5  // This is clean test data used to evaluate the BadNet
     └── bd
-        └── bd_valid.h5 // this is sunglasses poisoned validation data
-        └── bd_test.h5  // this is sunglasses poisoned test data
+        └── bd_valid.h5 // This is sunglasses poisoned validation data
+        └── bd_test.h5  // This is sunglasses poisoned test data
 ├── models
     └── bd_net.h5
     └── bd_weights.h5
+├── dm5309_MLCyberSec_Lab2.ipynb // This contains the experiments implemented and results obtained.
 ├── architecture.py
 └── eval.py // this is the evaluation script
 ```
